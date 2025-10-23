@@ -1,5 +1,5 @@
 {% set python_min = "3.10" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.0" %}
 
 package:
   name: xcube
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube/archive/v{{ version }}.tar.gz
-  sha256: 2674399fb56ca2ff0a3426ccb028b23fe0952650e91ae75e0b0d6ffafb791d7c
+  sha256: dd93515dc28fff7fbd47e734fb0711829c256e9075cc70e8f187e65b57a383f8
 
 build:
   number: 0
@@ -42,6 +42,7 @@ requirements:
     - geopandas >=0.8
     - jdcal >=1.4
     - jsonschema >=3.2
+    - libgdal-jp2openjpeg
     - kerchunk
     - mashumaro
     - matplotlib-base >=3.8.3
