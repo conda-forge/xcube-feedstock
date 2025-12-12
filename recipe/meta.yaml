@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube/archive/v{{ version }}.tar.gz
-  sha256: d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed
+  sha256: 5d32627ed0d81d976e22a9b126c9daa2392b808106d93ba12d3d8b5bc4108d9d
 
 build:
   number: 0
