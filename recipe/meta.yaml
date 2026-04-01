@@ -1,5 +1,5 @@
 {% set python_min = "3.10" %}
-{% set version = "1.13.1" %}
+{% set version = "1.13.2" %}
 
 package:
   name: xcube
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube/archive/v{{ version }}.tar.gz
-  sha256: a42487eed26914bf20a3684e8d1fcbd99009c491bcf8057a444227ae06f94b9c
+  sha256: 0560be812e47bdac870d7fa72fa284113e3919796a375c71162fd782a90866e6
 
 build:
   number: 0
